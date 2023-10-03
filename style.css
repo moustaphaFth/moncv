@@ -1,1 +1,47 @@
+body {
+    background-size: 100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.item {
+
+
+    width: 100%;
+
+}
+
+#maphoto {
+    width: 250px;
+
+}
+
+h1,
+p,
+h2,
+h5,
+h3,
+h4 {
+    color: aliceblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
