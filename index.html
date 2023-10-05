@@ -8,20 +8,19 @@
     <title>Mon cv</title>
 </head>
 
-<body>
+<body background="./1186627.jpg" style="background-size: cover;">
     <header>
-        <h1> fullstack web developer</h1>
+        <h1> My first portfolio website</h1>
     </header>
     <main>
-        <section id="infoperso" class="item">
-            <div>
+        <div class="fatheritem">
+            <section id="infoperso" class="item1">
                 <img src="./IMG_6773.jpg" alt="ma photo de profile" id="maphoto">
-            </div>
-            <div>
+            </section>
+            <div class="textbox">
                 <h2>Moustapha Fth</h2>
-                <hr>
                 <h3>Phone number : +212 7 72 19 73 43</h3>
-                <h4>email : <a href="mailto:moustaphafitah2@gmail.com">Here</a></h4>
+                <h4>Email : <a href="mailto:moustaphafitah2@gmail.com">Here</a></h4>
                 <ul>
                     <li>
                         <h5>Birthday:6 janvier 2005</h5>
@@ -40,37 +39,46 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section id="expPro" class="item">
-            <h2> Experience</h2>
-            <ul>
-                <li>
-                    <h5> web devloper </h5>
-                    <p>freelance - 2020 - Today</p>
-                </li>
-            </ul>
-        </section>
-        <section id="education" class="item">
-            <h2>Education :</h2>
-            <ul>
-                <li>
-                    <h5>bacalaureat SVT</h5>
-                    <p>Lyceé fkih tetuani</p>
-                </li>
-            </ul>
-        </section>
-        <section id="contact" class="item">
+            <section id="expPro" class="item2">
+                <h2> Experience:</h2>
+                <ul>
+                    <li>
+                        <h5> web devloper </h5>
+                        <p>freelance - 2020 - Today</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="education" class="item3">
+                <h2>Education:</h2>
+                <ul>
+                    <li>
+                        <h5>bacalaureat SVT</h5>
+                        <p>Lyceé fkih tetuani</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <br><br><br><br>
+        <section id="contact" class="item4">
             <h2> Contact :</h2>
             <form class="contact">
-                <label for="Name">Nom</label>
-                <input type="text" placeholder="veuiller saisir votre nom" name="Name" />
-                <label for="Phone">telephone</label>
-                <input type="number" placeholder="veuiller saisir votre numero de telephone" name="Name" />
-                <label for="Email">Email</label>
-                <input type="email" placeholder="veuiller saisir votre adresse mail" name="Email" />
-                <label for="message">votre Message</label>
+                <div class="input-grp">
+                <label for="Name">Your Name</label>
+                <input type="text" placeholder="" name="Name" />
+            </div>
+            <div class="input-grp">
+                <label for="Phone">Phone number</label>
+                <input type="number" placeholder="" name="Name" />
+            </div>
+            <div class="input-grp">
+                <label for="Email">Email Id</label>
+                <input type="email" placeholder="" name="Email" />
+            </div>
+            <div class="input-grp">
+                <label for="message">Your Message</label>
                 <textarea name="message" id="message" cols="15" rows="10">
                 </textarea>
+            </div>
             </form>
         </section>
     </main>
